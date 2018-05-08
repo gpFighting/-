@@ -1,0 +1,26 @@
+<view class="login">
+	<image src="../../images/images/avatar.png"></image>
+	<text>name</text>
+</view>
+<view class="msg common">
+	<text>本地宝信息</text>
+	<text>></text>
+</view>
+<view class="problem">
+	<view class="common">
+		<text>常见问题</text>
+		<text>></text>
+	</view>
+	<view class="common">
+		<text>使用条款</text>
+		<text>></text>
+	</view>
+	<view class="common">
+		<text>隐私权政策</text>
+		<text>></text>
+	</view>
+</view>
+<view class="set common" >
+	<text>设置</text>
+	<text>></text>
+</view>

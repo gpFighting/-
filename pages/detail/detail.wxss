@@ -1,0 +1,67 @@
+page {
+	background-color: #f0f0f0;
+}
+swiper,
+swiper-item {
+	width: 100%;
+	height: 500rpx;
+}
+swiper swiper-item image {
+	width: 100%;
+	height: 100%;
+}
+.info {
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	padding: 20rpx;
+	margin-bottom: 20rpx;
+}
+.info .title {
+	font-size: 30rpx;
+	color: #333;
+}
+.info .infoitem {
+	font-size: 26rpx;
+	color: #777;
+	line-height: 30rpx;
+	margin: 5rpx 0;
+}
+.comment {
+	background-color: #fff;
+}
+.commentlist {
+	padding: 20rpx;
+	border-bottom: 1rpx solid #ccc;
+}
+.comment .tip {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1rpx dashed #ccc;
+} 
+.comment .tip .name {
+	font-size: 28rpx;
+	color: #333;
+}
+.comment .tip .date {
+	font-size: 22rpx;
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+}
+.comment .tip .date .rating {
+	color: red;
+}
+.content {
+	font-size: 26rpx;
+	color: #333;
+	padding-top: 10rpx;
+}
+.pic {
+	display: inline-block;
+	width: 25%;
+}
+.pic image {
+	width: 140rpx;
+	height: 140rpx;
+}

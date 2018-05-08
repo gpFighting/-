@@ -1,0 +1,66 @@
+page {
+	background-color: #f0f0f0;
+}
+.search {
+	width: 100%;
+	padding: 20rpx 30rpx;
+	box-sizing: border-box;
+}
+.search .input {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 12rpx;
+	font-size: 28rpx;
+	padding: 10rpx 20rpx;
+}
+.search .input input {
+	flex: 1;
+}
+.shops {
+	background-color: #fff;
+}
+.shops .item {
+	display: flex;
+	justify-content: space-between;
+	padding: 20rpx;
+	border-bottom: 1rpx solid #ccc;
+}
+.shops .item:last-child {
+	border: none;
+}
+.shops .item image {
+	width: 140rpx;
+	height: 140rpx;	
+}
+.shops .item .info {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 0 20rpx;
+
+}
+.shops .item .deep {
+	font-size: 24rpx;
+	color: #333;
+}
+.shops .item .light {
+	font-size: 24rpx;
+	color: #999;
+}
+.score {
+	font-size: 24rpx;
+	height: 24rpx;
+	background-color: red;
+	color: #fff;
+	text-align: center;
+	padding: 5rpx 10rpx;
+	border-radius: 17rpx;
+	line-height: 24rpx;
+}
+.loading {
+	font-size: 30rpx;
+	color: #888;
+}

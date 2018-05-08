@@ -1,0 +1,20 @@
+<swiper autoplay interval= '3000' circular>
+	<swiper-item wx:for="{{slides}}" wx:key="{{item.id}}">
+		<navigator url="{{item.link}}" wx:if="{{item.link}}">
+			<image src="{{item.image}}" mode="aspectfill"></image>
+		</navigator>
+		<block   wx:else> 
+			<image src="{{item.image}}" mode="aspectfill"></image>
+		</block>
+	</swiper-item>
+</swiper>
+<view class="grids">
+	<navigator class="item" wx:for="{{categories}}" wx:key="{{item.id}}" url="../list/list?cat={{item.id}}&title={{item.name}}">
+		<image src="{{item.icon}}"></image>
+		<text>{{item.name}}</text>
+	</navigator>
+</view>
+<view class="link">
+	<image src="../../images/images/link-01.png"></image>
+	<image src="../../images/images/link-02.png"></image>
+</view>

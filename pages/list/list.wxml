@@ -1,0 +1,20 @@
+<view class="search">
+	<view class="input">
+		<input type="text" placeholder="搜索" bindinput="search" value="{{input}}" bindconfirm="searchkeywords"/>
+		<icon type="search" size="20" bindtap="searchkeywords"></icon>
+	</view>
+</view>
+<view class="shops">
+	<navigator class="item" wx:for="{{shops}}" wx:key="{{item.id}}" url="../detail/detail?item={{item.id}}&title={{item.name}}">
+		<image src="{{item.images[0]}}"></image>
+		<view class="info">
+			<text class="deep">{{item.name}}</text>
+			<text class="light">电话：{{item.phone}}</text>
+			<text class="light">地址{{item.address}}</text>
+			<text class="deep">营业时间：{{item.businessHours}}</text>
+		</view>
+		<text class="score">{{item.score || 0}}</text>
+	</navigator>
+</view>
+<button loading wx:if="{{hasmore}}" class="loading">正在加载</button>
+<button  wx:else class="loading">客官，没有更多了</button>

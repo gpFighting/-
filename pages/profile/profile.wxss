@@ -1,0 +1,41 @@
+page {
+	background-color: #f0f0f0;
+	color: #999;
+	font-size: 32rpx;
+}
+.login {
+	height: 488rpx;
+	color: #fff;
+	font-size: 30rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #3a4861;
+}
+.login image {
+	width: 140rpx;
+	height: 140rpx;
+	margin-bottom: 20rpx;
+}
+.msg {
+	margin: 20rpx 0;
+}
+.common {
+	background-color: #fff;
+	padding: 20rpx;
+	display: flex;
+	justify-content: space-between;
+}
+.problem {
+	background-color: #fff;
+}
+.problem view {
+	border-bottom: 1rpx solid #eee;
+}
+.problem view:last-child {
+	border: none;
+}
+.set {
+	margin-top: 20rpx;
+}
